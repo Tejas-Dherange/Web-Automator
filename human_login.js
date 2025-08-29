@@ -223,7 +223,7 @@ async function loginToGitHub() {
         
         // Type username with very human-like timing
         console.log('Typing username...');
-        const username = 'tejasdherange0099@gmail.com';
+        const username = '';
         
         // Type with realistic human patterns - occasional mistakes and corrections
         for (let i = 0; i < username.length; i++) {
@@ -333,7 +333,7 @@ async function loginToGitHub() {
           
           // Type password with very human-like timing
           console.log('Typing password...');
-          const password = 'Tejas@8766Dherange';
+          const password = '';
           
           // Variable typing speed for password with pauses
           for (let i = 0; i < password.length; i++) {
