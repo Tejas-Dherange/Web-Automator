@@ -5,7 +5,7 @@ This repository contains multiple solutions for automating GitHub login and inte
 ## Installation
 ```
 git clone https://github.com/Tejas-Dherange/Web-Automato
-cd Web-Automato
+cd Web-Automator
 npm i
 ```
 -run files as per their functionality given below
