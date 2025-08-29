@@ -887,7 +887,7 @@ const runGuestBookAutomation = async () => {
       
       // Type username character by character with variable delays like a human
       console.log('Typing username slowly like a human...');
-      const username = 'tejasdherange0099@gmail.com';
+      const username = '';
       for (let i = 0; i < username.length; i++) {
         // Random typing speed between 50-150ms
         const delay = Math.floor(Math.random() * 100) + 50;
@@ -907,7 +907,7 @@ const runGuestBookAutomation = async () => {
       
       // Type password character by character with variable delays
       console.log('Typing password slowly like a human...');
-      const password = 'Tejas@8766Dherange';
+      const password = '';
       for (let i = 0; i < password.length; i++) {
         // Random typing speed between 70-170ms
         const delay = Math.floor(Math.random() * 100) + 70;
@@ -924,7 +924,7 @@ const runGuestBookAutomation = async () => {
       if (!passwordFilled) {
         console.log('Password not filled correctly, trying alternative method...');
         await globalPage.click('input[name="password"]');
-        await globalPage.keyboard.type('Tejas@8766Dherange', {delay: 100});
+        await globalPage.keyboard.type('', {delay: 100});
       }
       
       // Take screenshot after filling (with password hidden)
