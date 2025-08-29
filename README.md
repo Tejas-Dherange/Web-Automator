@@ -2,6 +2,14 @@
 
 This repository contains multiple solutions for automating GitHub login and interacting with a guestbook application while bypassing anti-bot detection systems.
 
+## Installation
+```
+git clone https://github.com/Tejas-Dherange/Web-Automato
+cd Web-Automato
+npm i
+```
+-run files as per their functionality given below
+
 ## The Challenge
 
 The challenge involves:
