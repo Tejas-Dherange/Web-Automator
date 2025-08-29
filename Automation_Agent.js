@@ -665,8 +665,6 @@ const userTask = `
     step 1: Open url https://www.piyushgarg.dev/guest-book
     step 2: Click on "Sign in with GitHub" button
     step 3: Enter credentials :
-                - Username: tejasdherange0099@gmail.com
-                - Password: Tejas@8766Dherange
     step 4: Wait for verification
     step 5: After verification, click on "Authorize" button if required else proceed.
     step 6: Comment "hii this comment was made by bot" in the input field
